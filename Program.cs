@@ -9,9 +9,6 @@ for (int i = 0; i < n; i++)
     num[i] = int.Parse(inp[i]);
 }
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
-int m = num[0];
-Array.ForEach(num, a=> {
-    if (a > m) m = a;
-});
+int m = num.Max();
 //
 Console.WriteLine(m);
