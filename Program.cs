@@ -10,10 +10,8 @@ for (int i = 0; i < n; i++)
 }
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
 int m = 0;
-foreach (var a in num)
-{
+Array.ForEach(num, a=> {
     if (a > m) m = a;
-}
-;
+});
 //
 Console.WriteLine(m);
