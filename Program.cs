@@ -1,12 +1,11 @@
-string? l = Console.ReadLine();
+string l = Console.ReadLine();
 int n = int.Parse(l);
-string[]? t = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+string[]? t = Console.ReadLine()?.Split(' ');
 int[] v = new int[n];
 for (int i = 0; i < n; i++)
 {
     v[i] = int.Parse(t[i]);
 }
-// Máximo
 int m = v[0];
 for(var i = 1; i < n; i++)
 {
