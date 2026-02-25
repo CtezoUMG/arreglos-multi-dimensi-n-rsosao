@@ -1,10 +1,10 @@
-string l = Console.ReadLine();
-int n = int.Parse(l);
+var l = Console.ReadLine();
 string[] t = Console.ReadLine().Split(' ');
+var n = int.Parse(l);
 int[] v = new int[n];
-for (int i = 0; i < n; i++)
+for (var i = 0; i < n; i++)
     v[i] = int.Parse(t[i]);
-int m = v[0];
+var m = v[0];
 for(var i = 1; i < n; i++)
     if (v[i] > m) m = v[i];
 Console.WriteLine(m);
