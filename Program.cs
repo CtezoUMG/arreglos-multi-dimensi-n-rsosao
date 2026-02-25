@@ -1,4 +1,4 @@
-var l = Console.ReadLine();
+var l = Console.Read();
 string[] t = Console.ReadLine().Split(' ');
 var n = int.Parse(l);
 int[] v = new int[n];
