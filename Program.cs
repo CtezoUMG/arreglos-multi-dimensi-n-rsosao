@@ -8,8 +8,8 @@ for (int i = 0; i < n; i++)
 }
 // Máximo
 int m = 0;
-foreach (var a in v)
+for(var i = 1; i < n; i++)
 {
-    if (a > m) m = a;
+    if (v[i] > m) m = v[i];
 }
 Console.WriteLine(m);
