@@ -1,8 +1,5 @@
-// Leemos línea
-string l = Console.ReadLine() ?? String.Empty;
-if (l.Length == 0) return;
+string? l = Console.ReadLine();
 int n = int.Parse(l);
-// Obtenemos entrada
 string[]? t = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 int[] v = new int[n];
 for (int i = 0; i < n; i++)
@@ -10,9 +7,9 @@ for (int i = 0; i < n; i++)
     v[i] = int.Parse(t[i]);
 }
 // Máximo
-int m = v[0];
-for(int i = 1; i < n; i++)
+int m = 0;
+foreach (var a in v)
 {
-    if(v[i] > m) m = v[i];
+    if (a > m) m = a;
 }
 Console.WriteLine(m);
