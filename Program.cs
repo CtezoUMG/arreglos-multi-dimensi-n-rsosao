@@ -7,7 +7,7 @@ for (int i = 0; i < n; i++)
     v[i] = int.Parse(t[i]);
 }
 // Máximo
-int m = 0;
+int m = v[0];
 for(var i = 1; i < n; i++)
 {
     if (v[i] > m) m = v[i];
