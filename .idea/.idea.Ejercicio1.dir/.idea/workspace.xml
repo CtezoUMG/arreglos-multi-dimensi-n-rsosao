@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b220ce-9bb0-42e2-adba-405cd5bfeec8" name="Changes" comment="" />
+    <list default="true" id="79b220ce-9bb0-42e2-adba-405cd5bfeec8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/TestArreglo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/TestArreglo.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/TestArreglo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/TestArreglo.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,7 @@
       <workItem from="1772059959201" duration="1629000" />
       <workItem from="1772204220992" duration="1179000" />
       <workItem from="1772205542522" duration="7000" />
+      <workItem from="1772205656061" duration="5000" />
     </task>
     <servers />
   </component>
